@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: besu-validators-configmap
+  labels:
+    app: besu-validators-configmap
+  namespace: besu
+data:
+  validator1PubKey: "b53d95e5b067b3de17363390520288267c78b8649e4247bef5f0c641259decfb3d01a82669208fe6df99fcae4f52ea26a8af1607523ede7d9b92d9116a39471f"
+  validator2PubKey: "b7bf68dc54f2c5db221674ebe22a5aaee485cc794a6bb46c1766fbbe8868c641653f4025c820aa25fc6925ae3df8b31d6096ac1ccb8e670d48c6f02d367ad134"
+  validator3PubKey: "ed490f05570890680968da26e1136219eaf8f912b9a2d6a21982e73e39689e372404bb48506918eb6fffe43ffd392237c031b93b6daacea8e0994b4924286fe8"
+  validator4PubKey: "bc3175000b0936429a73a123e68a2d3d54ab4fd97fb984c1a6b932cd57c23747c1b85d6d962398bec9aaf59d62d0d80f1d120bab7dc4c8f70abef21d1e155b55"
